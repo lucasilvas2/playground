@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component</title>
+    <link rel="stylesheet" href="src/style/main.css" />
+  </head>
+
+  <body>
+    <component-default message="Teste"></component-default>
+
+    <card-post
+      autor="Lucas S"
+      title="Title teste"
+      link="https://google.com.br"
+      content="Texto do conteudo do post"
+      image="assets/images/queroCafe.jpg"
+    ></card-post>
+    
+    <form action="#">
+      <input-custom></input-custom>
+    </form>
+  </body>
+</html>
+
+<script src="src/components/ComponentDefault.js" defer></script>
+<script src="src/components/CardPost.js" defer></script>
+<script src="src/components/InputCustom.js" defer></script>
